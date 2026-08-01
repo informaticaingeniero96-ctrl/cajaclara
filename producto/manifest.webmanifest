@@ -1,0 +1,11 @@
+{
+  "name": "CajaClara",
+  "short_name": "CajaClara",
+  "description": "Control de caja offline para pequeños negocios.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#edf3f1",
+  "theme_color": "#102a43",
+  "lang": "es",
+  "icons": []
+}
