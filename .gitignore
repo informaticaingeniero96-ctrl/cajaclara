@@ -1,0 +1,13 @@
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Datos locales de la app: nunca deben subir al repositorio
+*.cajaclara.json
+backups/
+
+# Salidas temporales
+dist/
+*.log
+*.zip
