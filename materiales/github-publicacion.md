@@ -20,7 +20,8 @@ El repositorio publico ya esta creado y contiene el producto, la landing, los ma
 - Publicar la demo y el codigo como prueba de confianza.
 - Ofrecer la descarga de CajaClara a US$19.
 - Ofrecer personalizaciones pequenas a US$59.
-- Sustituir `TU_ENLACE_KOFI` en la landing por un enlace de pago real cuando exista una cuenta de cobro.
+- La landing usa un correo de solicitud mientras se configura una cuenta de cobro: `informaticaingeniero96@gmail.com`.
+- Sustituir el correo por un checkout de Ko-fi o Stripe cuando exista una cuenta de cobro verificada.
 
 ## Reglas de seguridad
 
