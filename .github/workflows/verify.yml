@@ -1,0 +1,21 @@
+name: Verificar CajaClara
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  static-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+      - name: Revisar sintaxis JavaScript
+        run: node --check producto/app.js
+      - name: Confirmar archivos esenciales
+        shell: bash
+        run: |
+          test -f producto/index.html
+          test -f producto/styles.css
+          test -f producto/app.js
+          test -f landing/index.html
