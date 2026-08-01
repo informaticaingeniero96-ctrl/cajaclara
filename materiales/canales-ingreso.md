@@ -8,7 +8,7 @@ audiencia. No se debe contar como ingreso hasta que exista un pago confirmado.
 ### Arreglo de bugs web
 
 - Oferta: diagnóstico y corrección de un error concreto en HTML, CSS o JavaScript.
-- Precio inicial: US$49.
+- Precio de entrada: US$15 para un bug pequeño y concreto.
 - Alcance: reproducir, corregir, probar y explicar el cambio.
 - Evidencia: perfil de Contra y el repositorio público de CajaClara.
 
@@ -23,8 +23,8 @@ audiencia. No se debe contar como ingreso hasta que exista un pago confirmado.
 - Precio inicial: US$79.
 - Alcance: una página responsive, formulario de contacto y publicación.
 
-Meta bruta de ejemplo: dos arreglos de US$49 más dos personalizaciones de
-US$59 suman US$216. Es una referencia de ventas, no una promesa.
+Meta bruta de ejemplo: seis arreglos de US$15 más dos personalizaciones de
+US$59 suman US$208. Es una referencia de ventas, no una promesa.
 
 ## Prioridad 2: producto digital
 
