@@ -2,28 +2,28 @@
 
 ## Estado actual
 
-El código está listo dentro de `C:\proyectos\testdol`. La integración de GitHub no mostró repositorios autenticados y el login web indicó que la cuenta no acepta inicio de sesión por contraseña.
+El repositorio publico ya esta creado y contiene el producto, la landing, los materiales y el workflow de verificacion.
 
-## Cuando la cuenta esté autenticada
+- Repositorio: https://github.com/informaticaingeniero96-ctrl/cajaclara
+- GitHub Pages: https://informaticaingeniero96-ctrl.github.io/cajaclara/
+- Rama publicada: `main`, carpeta `/ (root)`
 
-1. Crea un repositorio público llamado `cajaclara`.
-2. No marques la opción de agregar archivos si vas a subir el contenido local.
-3. Desde `C:\proyectos\testdol`, ejecuta:
+## Flujo de publicacion usado
 
-```powershell
-git init
-git add .
-git commit -m "feat: primera versión de CajaClara"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/cajaclara.git
-git push -u origin main
-```
+1. Se creo el repositorio publico `cajaclara`.
+2. Se subieron los archivos del proyecto sin contrasenas, tokens ni datos de clientes.
+3. En Settings > Pages se eligio `Deploy from a branch`, rama `main` y carpeta `/ (root)`.
+4. La entrada `index.html` redirige a `landing/index.html`.
 
-4. En Settings → Pages, elige `Deploy from a branch`, rama `main` y carpeta `/root` si quieres publicar el contenido del repositorio.
-5. Para una landing más limpia, puedes mover después el contenido de `landing/` a un sitio separado o conservar el enlace de prueba local para desarrollo.
+## Monetizacion gradual
+
+- Publicar la demo y el codigo como prueba de confianza.
+- Ofrecer la descarga de CajaClara a US$19.
+- Ofrecer personalizaciones pequenas a US$59.
+- Sustituir `TU_ENLACE_KOFI` en la landing por un enlace de pago real cuando exista una cuenta de cobro.
 
 ## Reglas de seguridad
 
-- Nunca subas contraseñas, tokens, respaldos JSON reales ni datos de clientes.
-- Mantén `producto/` como la demo pública.
-- El enlace de pago se deja como marcador `TU_ENLACE_KOFI` hasta tener la tienda real.
+- Nunca subir contrasenas, tokens, respaldos JSON reales ni datos de clientes.
+- Mantener `producto/` como la demo publica.
+- Revisar cada archivo nuevo antes de subirlo.
